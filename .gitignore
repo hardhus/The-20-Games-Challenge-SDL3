@@ -1,0 +1,48 @@
+# --- Build Klasörleri (Otomatik oluşanlar) ---
+build/
+build-web/
+bin/
+dist/
+
+# --- CMake ve Derleme Artıkları ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.ninja
+*.ilk
+*.pdb
+*.obj
+*.exp
+*.lib
+*.dll
+*.exe
+compile_commands.json
+
+# --- Emscripten (Web) ---
+emsdk/
+.emscripten
+.emscripten_sanitizer_cache
+*.wasm
+*.js
+*.data
+
+# --- IDE ve Editör Dosyaları ---
+.vs/
+.vscode/
+.idea/
+.cache/
+*.swp
+*.swo
+*.user
+
+# --- İşletim Sistemi Dosyaları ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Proje Özel (Geçici Dosyalar) ---
+# Yapay zeka için oluşturduğun dev metin dosyası
+FULL_PROJECT_CONTEXT.txt
+
